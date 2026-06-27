@@ -2,7 +2,7 @@
 
 import { cormorant, dmSerif, originalSurfer } from "@/app/font";
 
-import { text } from "framer-motion/m";
+
 import {
   Sofa,
   Building2,
