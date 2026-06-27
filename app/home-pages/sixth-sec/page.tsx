@@ -97,11 +97,11 @@ export default function SixthSection() {
               return (
                 <div
                   key={index}
-                  className="flex-[0_0_70%] md:flex-[0_0_50%] px-5"
+                  className="flex-[0_0_70%] md:flex-[0_0_50%] px-5 max-md:px-0"
                 >
                   <div
                     className={`
-                      relative h-[420px]
+                      relative h-[420px] max-md:h-[300px] max-sm:h-[200px] max-sm:w-[280px]
                       rounded-[32px]
                       overflow-hidden
                       transition-all duration-700
@@ -142,6 +142,7 @@ export default function SixthSection() {
                           className="
         w-28
         h-20
+        max-sm:w-14 max-sm:h-10 max-sm:rounded-[12px]
         bg-[#FF0000]
         rounded-[22px]
         flex
@@ -156,17 +157,17 @@ export default function SixthSection() {
                           <Play
                             size={42}
                             fill="white"
-                            className="text-white ml-1"
+                            className="text-white ml-1 max-sm:h-[22px]"
                           />
                         </div>
                       </a>
                     )}
 
                     {/* Content */}
-                    <div className="absolute bottom-8 left-8 text-white z-10">
-                      <h3 className="text-3xl font-bold">{slide.title}</h3>
+                    <div className="absolute bottom-8 left-8 text-white z-10 max-sm:left-2  max-sm:bottom-4 ">
+                      <h3 className="text-3xl font-bold max-sm:text-xl">{slide.title}</h3>
 
-                      <p className="mt-2 text-gray-200">
+                      <p className="mt-2 max-sm:mt-0 text-gray-200 max-sm:text-base">
                         Luxury Interior & Exterior Solutions
                       </p>
                     </div>
