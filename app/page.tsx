@@ -291,7 +291,7 @@ export default function Home() {
    
 
       {/* Main Content */}
-      <main className="relative z-10 bg-black text-white ">
+      <main className="relative z-10  text-white ">
         <Navbar />
 
         <FirstSection />
